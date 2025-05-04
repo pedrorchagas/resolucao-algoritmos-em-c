@@ -2,7 +2,7 @@
 #include <locale.h>
 #include <ctype.h>
 
-int main (int argc, char *argv[])
+int main ()
 {
   setlocale(LC_ALL,"Portuguese");
   const char* Nome;
