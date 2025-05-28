@@ -6,7 +6,7 @@ int main() {
     while(Resposta)
     { 
         printf("Você gosta de ler[S/N]: ");
-        scanf(" %c ", &Opcao);
+        scanf(" %c ", &Opcao); //para evitar problemas com o buffer, foi preciso colocar um espaço antes e depois da variável para garantir a execução do programa.
         switch (Opcao)
         {
             case 'S':
