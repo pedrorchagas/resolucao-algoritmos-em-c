@@ -1,15 +1,12 @@
 #include<stdio.h>
 
-// ESSA RESPOSTA ESTÁ COM UM PROBLEMA, IREI CORRIGIR COM O PROFESSOR
-// ATT. PEDRO
-
 int main() {
     char Opcao;
     bool Resposta = true;
     while(Resposta)
     { 
         printf("Você gosta de ler[S/N]: ");
-        scanf("%c", &Opcao);
+        scanf(" %c ", &Opcao);
         switch (Opcao)
         {
             case 'S':
@@ -22,7 +19,7 @@ int main() {
                 break;
             default:
                 
-                printf("Resposta inválida, digite S ou N.\n valor: %c\n", Opcao);
+                printf("Resposta inválida, digite S ou N.\n ");
         }
     }
     
